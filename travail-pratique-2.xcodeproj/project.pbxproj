@@ -12,6 +12,19 @@
 		BE0AEE9F1F7748F50074042E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0AEE9D1F7748F50074042E /* Main.storyboard */; };
 		BE0AEEA11F7748F50074042E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0AEEA01F7748F50074042E /* Assets.xcassets */; };
 		BE0AEEA41F7748F50074042E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0AEEA21F7748F50074042E /* LaunchScreen.storyboard */; };
+		BE0AEEB51F774AA30074042E /* ane.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0AEEAC1F774AA30074042E /* ane.png */; };
+		BE0AEEB61F774AA30074042E /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE0AEEAD1F774AA30074042E /* background.jpg */; };
+		BE0AEEB71F774AA30074042E /* backImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0AEEAE1F774AA30074042E /* backImage.png */; };
+		BE0AEEB81F774AA30074042E /* canard.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0AEEAF1F774AA30074042E /* canard.png */; };
+		BE0AEEB91F774AA30074042E /* cheval.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0AEEB01F774AA30074042E /* cheval.png */; };
+		BE0AEEBA1F774AA30074042E /* mouton.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0AEEB11F774AA30074042E /* mouton.png */; };
+		BE0AEEBB1F774AA30074042E /* poule.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0AEEB21F774AA30074042E /* poule.png */; };
+		BE0AEEBD1F774AA30074042E /* vache.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0AEEB41F774AA30074042E /* vache.png */; };
+		BE0AEEC01F774AFF0074042E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0AEEBF1F774AFF0074042E /* Card.swift */; };
+		BE0AEEC31F774C3B0074042E /* MatchGameDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0AEEC21F774C3B0074042E /* MatchGameDelegate.swift */; };
+		BE0AEEC61F774CE40074042E /* MatchGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0AEEC51F774CE40074042E /* MatchGame.swift */; };
+		BE0AEEC81F774F9D0074042E /* reset.ico in Resources */ = {isa = PBXBuildFile; fileRef = BE0AEEC71F774F9D0074042E /* reset.ico */; };
+		BE0AEECC1F7750860074042E /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0AEECB1F7750860074042E /* CardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,19 @@
 		BE0AEEA01F7748F50074042E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE0AEEA31F7748F50074042E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE0AEEA51F7748F50074042E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0AEEAC1F774AA30074042E /* ane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ane.png; path = images/ane.png; sourceTree = "<group>"; };
+		BE0AEEAD1F774AA30074042E /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = images/background.jpg; sourceTree = "<group>"; };
+		BE0AEEAE1F774AA30074042E /* backImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backImage.png; path = images/backImage.png; sourceTree = "<group>"; };
+		BE0AEEAF1F774AA30074042E /* canard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = canard.png; path = images/canard.png; sourceTree = "<group>"; };
+		BE0AEEB01F774AA30074042E /* cheval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cheval.png; path = images/cheval.png; sourceTree = "<group>"; };
+		BE0AEEB11F774AA30074042E /* mouton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mouton.png; path = images/mouton.png; sourceTree = "<group>"; };
+		BE0AEEB21F774AA30074042E /* poule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = poule.png; path = images/poule.png; sourceTree = "<group>"; };
+		BE0AEEB41F774AA30074042E /* vache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vache.png; path = images/vache.png; sourceTree = "<group>"; };
+		BE0AEEBF1F774AFF0074042E /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		BE0AEEC21F774C3B0074042E /* MatchGameDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchGameDelegate.swift; sourceTree = "<group>"; };
+		BE0AEEC51F774CE40074042E /* MatchGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchGame.swift; sourceTree = "<group>"; };
+		BE0AEEC71F774F9D0074042E /* reset.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = reset.ico; path = images/reset.ico; sourceTree = "<group>"; };
+		BE0AEECB1F7750860074042E /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,75 @@
 		BE0AEE981F7748F50074042E /* travail-pratique-2 */ = {
 			isa = PBXGroup;
 			children = (
+				BE0AEEAB1F774A280074042E /* images */,
 				BE0AEE991F7748F50074042E /* AppDelegate.swift */,
-				BE0AEE9B1F7748F50074042E /* ViewController.swift */,
+				BE0AEEC41F774CC30074042E /* Model */,
+				BE0AEEBE1F774AD90074042E /* Entity */,
+				BE0AEEC91F774FCB0074042E /* ViewController */,
 				BE0AEE9D1F7748F50074042E /* Main.storyboard */,
 				BE0AEEA01F7748F50074042E /* Assets.xcassets */,
 				BE0AEEA21F7748F50074042E /* LaunchScreen.storyboard */,
 				BE0AEEA51F7748F50074042E /* Info.plist */,
 			);
 			path = "travail-pratique-2";
+			sourceTree = "<group>";
+		};
+		BE0AEEAB1F774A280074042E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BE0AEEC71F774F9D0074042E /* reset.ico */,
+				BE0AEEAC1F774AA30074042E /* ane.png */,
+				BE0AEEAD1F774AA30074042E /* background.jpg */,
+				BE0AEEAE1F774AA30074042E /* backImage.png */,
+				BE0AEEAF1F774AA30074042E /* canard.png */,
+				BE0AEEB01F774AA30074042E /* cheval.png */,
+				BE0AEEB11F774AA30074042E /* mouton.png */,
+				BE0AEEB21F774AA30074042E /* poule.png */,
+				BE0AEEB41F774AA30074042E /* vache.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		BE0AEEBE1F774AD90074042E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				BE0AEEBF1F774AFF0074042E /* Card.swift */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		BE0AEEC11F774C230074042E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BE0AEEC21F774C3B0074042E /* MatchGameDelegate.swift */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		BE0AEEC41F774CC30074042E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE0AEEC11F774C230074042E /* Delegate */,
+				BE0AEEC51F774CE40074042E /* MatchGame.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BE0AEEC91F774FCB0074042E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BE0AEECA1F77505A0074042E /* Cell */,
+				BE0AEE9B1F7748F50074042E /* ViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		BE0AEECA1F77505A0074042E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BE0AEECB1F7750860074042E /* CardCollectionViewCell.swift */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +210,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0AEEB91F774AA30074042E /* cheval.png in Resources */,
+				BE0AEEC81F774F9D0074042E /* reset.ico in Resources */,
+				BE0AEEB81F774AA30074042E /* canard.png in Resources */,
+				BE0AEEB71F774AA30074042E /* backImage.png in Resources */,
 				BE0AEEA41F7748F50074042E /* LaunchScreen.storyboard in Resources */,
+				BE0AEEB61F774AA30074042E /* background.jpg in Resources */,
+				BE0AEEBA1F774AA30074042E /* mouton.png in Resources */,
+				BE0AEEBD1F774AA30074042E /* vache.png in Resources */,
 				BE0AEEA11F7748F50074042E /* Assets.xcassets in Resources */,
+				BE0AEEBB1F774AA30074042E /* poule.png in Resources */,
+				BE0AEEB51F774AA30074042E /* ane.png in Resources */,
 				BE0AEE9F1F7748F50074042E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0AEEC31F774C3B0074042E /* MatchGameDelegate.swift in Sources */,
+				BE0AEEC61F774CE40074042E /* MatchGame.swift in Sources */,
 				BE0AEE9C1F7748F50074042E /* ViewController.swift in Sources */,
+				BE0AEEC01F774AFF0074042E /* Card.swift in Sources */,
+				BE0AEECC1F7750860074042E /* CardCollectionViewCell.swift in Sources */,
 				BE0AEE9A1F7748F50074042E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

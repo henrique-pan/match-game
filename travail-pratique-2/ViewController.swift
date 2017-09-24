@@ -14,11 +14,20 @@ class ViewController: UIViewController {
     let NUMBER_OF_ITEMS_IN_SECTION = 12
     
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var imageView: UIImageView!
     
     let matchGame = MatchGame()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        /*
+        let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.light)
+        let blurEffectView = UIVisualEffectView(effect: blurEffect)
+        blurEffectView.frame = view.bounds
+        blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        imageView.addSubview(blurEffectView)
+        */
         
         self.collectionView.delegate = self;
         self.collectionView.dataSource = self;

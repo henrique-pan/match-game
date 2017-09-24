@@ -91,6 +91,7 @@
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="2gJ-Ya-qAL" id="nO3-AV-KNM"/>
+                        <outlet property="imageView" destination="dFX-t3-LkO" id="chY-R0-qmr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

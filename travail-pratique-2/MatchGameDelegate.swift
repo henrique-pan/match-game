@@ -16,4 +16,6 @@ protocol MatchGameDelegate {
     
     func hide(cards: [Card]!, matchGame: MatchGame)
     
+    func matchGameDidEnd(matchGame: MatchGame)
+    
 }

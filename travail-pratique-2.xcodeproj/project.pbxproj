@@ -25,6 +25,15 @@
 		BE0AEEC61F774CE40074042E /* MatchGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0AEEC51F774CE40074042E /* MatchGame.swift */; };
 		BE0AEEC81F774F9D0074042E /* reset.ico in Resources */ = {isa = PBXBuildFile; fileRef = BE0AEEC71F774F9D0074042E /* reset.ico */; };
 		BE0AEECC1F7750860074042E /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0AEECB1F7750860074042E /* CardCollectionViewCell.swift */; };
+		BE8A20581F79BA210025BA55 /* CardMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8A20571F79BA210025BA55 /* CardMedia.swift */; };
+		BE8A20601F79E94E0025BA55 /* mouton.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE8A205A1F79E94D0025BA55 /* mouton.mp3 */; };
+		BE8A20611F79E94E0025BA55 /* cheval.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE8A205B1F79E94D0025BA55 /* cheval.mp3 */; };
+		BE8A20621F79E94E0025BA55 /* vache.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE8A205C1F79E94D0025BA55 /* vache.mp3 */; };
+		BE8A20631F79E94E0025BA55 /* canard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE8A205D1F79E94E0025BA55 /* canard.mp3 */; };
+		BE8A20641F79E94E0025BA55 /* poule.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE8A205E1F79E94E0025BA55 /* poule.mp3 */; };
+		BE8A20651F79E94E0025BA55 /* ane.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE8A205F1F79E94E0025BA55 /* ane.mp3 */; };
+		BEE31F021F81EAE10018928D /* game-ending.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BEE31F011F81EAE10018928D /* game-ending.mp3 */; };
+		BEE31F061F81F4DF0018928D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE31F051F81F4DE0018928D /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +57,15 @@
 		BE0AEEC51F774CE40074042E /* MatchGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchGame.swift; sourceTree = "<group>"; };
 		BE0AEEC71F774F9D0074042E /* reset.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = reset.ico; path = images/reset.ico; sourceTree = "<group>"; };
 		BE0AEECB1F7750860074042E /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		BE8A20571F79BA210025BA55 /* CardMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMedia.swift; sourceTree = "<group>"; };
+		BE8A205A1F79E94D0025BA55 /* mouton.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = mouton.mp3; path = sounds/mouton.mp3; sourceTree = "<group>"; };
+		BE8A205B1F79E94D0025BA55 /* cheval.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cheval.mp3; path = sounds/cheval.mp3; sourceTree = "<group>"; };
+		BE8A205C1F79E94D0025BA55 /* vache.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = vache.mp3; path = sounds/vache.mp3; sourceTree = "<group>"; };
+		BE8A205D1F79E94E0025BA55 /* canard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = canard.mp3; path = sounds/canard.mp3; sourceTree = "<group>"; };
+		BE8A205E1F79E94E0025BA55 /* poule.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = poule.mp3; path = sounds/poule.mp3; sourceTree = "<group>"; };
+		BE8A205F1F79E94E0025BA55 /* ane.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ane.mp3; path = sounds/ane.mp3; sourceTree = "<group>"; };
+		BEE31F011F81EAE10018928D /* game-ending.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "game-ending.mp3"; path = "sounds/game-ending.mp3"; sourceTree = "<group>"; };
+		BEE31F051F81F4DE0018928D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +98,7 @@
 		BE0AEE981F7748F50074042E /* travail-pratique-2 */ = {
 			isa = PBXGroup;
 			children = (
+				BE8A20591F79E8700025BA55 /* sounds */,
 				BE0AEEAB1F774A280074042E /* images */,
 				BE0AEE991F7748F50074042E /* AppDelegate.swift */,
 				BE0AEEC41F774CC30074042E /* Model */,
@@ -96,6 +115,7 @@
 		BE0AEEAB1F774A280074042E /* images */ = {
 			isa = PBXGroup;
 			children = (
+				BEE31F051F81F4DE0018928D /* logo.png */,
 				BE0AEEC71F774F9D0074042E /* reset.ico */,
 				BE0AEEAC1F774AA30074042E /* ane.png */,
 				BE0AEEAD1F774AA30074042E /* background.jpg */,
@@ -113,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				BE0AEEBF1F774AFF0074042E /* Card.swift */,
+				BE8A20571F79BA210025BA55 /* CardMedia.swift */,
 			);
 			name = Entity;
 			sourceTree = "<group>";
@@ -149,6 +170,20 @@
 				BE0AEECB1F7750860074042E /* CardCollectionViewCell.swift */,
 			);
 			name = Cell;
+			sourceTree = "<group>";
+		};
+		BE8A20591F79E8700025BA55 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BEE31F011F81EAE10018928D /* game-ending.mp3 */,
+				BE8A205F1F79E94E0025BA55 /* ane.mp3 */,
+				BE8A205D1F79E94E0025BA55 /* canard.mp3 */,
+				BE8A205B1F79E94D0025BA55 /* cheval.mp3 */,
+				BE8A205E1F79E94E0025BA55 /* poule.mp3 */,
+				BE8A205A1F79E94D0025BA55 /* mouton.mp3 */,
+				BE8A205C1F79E94D0025BA55 /* vache.mp3 */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,17 +246,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE31F021F81EAE10018928D /* game-ending.mp3 in Resources */,
+				BE8A20641F79E94E0025BA55 /* poule.mp3 in Resources */,
 				BE0AEEB91F774AA30074042E /* cheval.png in Resources */,
+				BE8A20631F79E94E0025BA55 /* canard.mp3 in Resources */,
 				BE0AEEC81F774F9D0074042E /* reset.ico in Resources */,
 				BE0AEEB81F774AA30074042E /* canard.png in Resources */,
 				BE0AEEB71F774AA30074042E /* backImage.png in Resources */,
 				BE0AEEA41F7748F50074042E /* LaunchScreen.storyboard in Resources */,
 				BE0AEEB61F774AA30074042E /* background.jpg in Resources */,
 				BE0AEEBA1F774AA30074042E /* mouton.png in Resources */,
+				BE8A20651F79E94E0025BA55 /* ane.mp3 in Resources */,
 				BE0AEEBD1F774AA30074042E /* vache.png in Resources */,
 				BE0AEEA11F7748F50074042E /* Assets.xcassets in Resources */,
+				BE8A20601F79E94E0025BA55 /* mouton.mp3 in Resources */,
 				BE0AEEBB1F774AA30074042E /* poule.png in Resources */,
+				BE8A20611F79E94E0025BA55 /* cheval.mp3 in Resources */,
+				BEE31F061F81F4DF0018928D /* logo.png in Resources */,
 				BE0AEEB51F774AA30074042E /* ane.png in Resources */,
+				BE8A20621F79E94E0025BA55 /* vache.mp3 in Resources */,
 				BE0AEE9F1F7748F50074042E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +282,7 @@
 				BE0AEEC01F774AFF0074042E /* Card.swift in Sources */,
 				BE0AEECC1F7750860074042E /* CardCollectionViewCell.swift in Sources */,
 				BE0AEE9A1F7748F50074042E /* AppDelegate.swift in Sources */,
+				BE8A20581F79BA210025BA55 /* CardMedia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

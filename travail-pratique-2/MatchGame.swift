@@ -106,7 +106,7 @@ class MatchGame {
             let pair: Card = Card.init(id: (id+1), card: card)
             cards.append(contentsOf: [card, pair])
         }
-        //cards.shuffle()
+        cards.shuffle()
         return cards
     }
     
